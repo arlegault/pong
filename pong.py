@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.debug = True
 
 #api token for the slackbot pong tracker. Should move this to another config file
-slacktoken = 'xoxb-43423956055-9ETImQVlt3eYHXhiKSbHdCTr'
+slacktoken = 'REDACTED'
 
 
 
