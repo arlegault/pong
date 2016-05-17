@@ -18,7 +18,7 @@ def write_new_to_db(user_id, username, fullname, deleted):
 
 
 def update_slack_user_list():
-    r = requests.get('https://slack.com/api/users.list?token=xoxp-15410342563-26663508262-43007009110-4a3690ab71')
+    r = requests.get('https://slack.com/api/users.list?token=REDACTED')
 
     if r.status_code == 200:
         parsed_json = r.json()
